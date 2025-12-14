@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"
+        <meta name="viewport"content widht=,"initial-scale=1.0">
+        <tittle></tittle>
+        <style>
+        /* Aquí va el código CSS de la sección 2 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc; /* Color Crema (base) */
+            color: #4b3832; /* Café Oscuro (texto principal) */
+        }
+
+/* Contenedor del video */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -2;
+            /* Mueve el video al fondo, debajo del overlay */
+            overflow: hidden;
+        }
+
+        /* Estilos para la etiqueta del video */
+        #miVideo {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            /* Asegura que el video cubra toda la pantalla sin distorsión */
+        }
+
+          /* Capa Oscura (Overlay) - ¡ESENCIAL para que el texto se lea! */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(186, 104, 133, 0.5);
+            /* Rosa oscuro semi-transparente */
+            z-index: -1;
+            /* Se coloca entre el video (-2) y el contenido (1) */
+        }
+
+
+        header {
+            background-color: rgba(131, 87, 30, 0.5);
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+       header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+             background-color: rgba(207, 152, 90, 0.5);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        img{
+   
+    border-radius: 8px; /* Bordes redondeados para mejor estética */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra inicial sutil */
+    transition: all 0.3s ease; /* **Crucial:** Asegura una transición suave y no un salto brusco */
+}
+
+/* 2. Estilos al Pasar el Cursor (Efecto Hover) */
+img:hover {
+    transform: scale(1.05) translateY(-5px); /* **El efecto de sobresalir** */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4); /* Sombra más grande y oscura */
+    z-index: 10; /* Asegura que la imagen agrandada esté sobre otros elementos */
+}
+
+
+        </style>
+    </head>
+    <body>
+
+      
+       
+ <header>
+  <center><h1><b>GALERIA</b></h1></center>
+</header>
+<div class="container">
+  <h1><strong>HOTEL</strong></h1>
+        <img src= "IMG/AFUERAS.JPG" width="500" height="400"/>
+        </div>
+        <div class="container">
+        <h1><strong>LOBBY</strong></h1>
+         <img src="IMG/lobby.jpg" width="500" height="400"/>
+         </div>
+         <div class="container">
+         <h1><strong>JARDIN</strong></h1>
+          <img src="IMG/jardin.jpg" width="500" height="400">
+          </div>
+          <div class="container">
+          <H1><strongz>RECAMARAS</strongz></H1>
+          <img src="IMG/H1.jpg" width="500" height="400">
+          </div>
+          <div class="container">
+         <h1><strongz>ESTACIONAMIENTO</strongz></h1>
+         <img SRC="IMG/parking4.jpg" width="500" height="400"/>
+         </div>
+         <div class="container">
+         <H1><strongz>RESTAURANTE</strongz></H1>
+         <img src="IMG/comedor.jpg" width="500" height="400"/>
+         </div>
+         <div class="container">
+         <H1><strong>PISCINA</strong></H1>
+         <img src="IMG/piscina.jpg" width="500" height="400"/>
+</div>
+</body>
+</html>

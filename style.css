@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Las Olas - Tu Paraíso Frente al Mar</title>
+    <style>
+        /* Definición de la paleta de colores */
+        :root {
+            --color-beige: #F5EFE6;      /* Fondo principal, muy claro */
+            --color-cafe-claro: #B8A99A; /* Títulos y acentos */
+            --color-texto: #4B443D;      /* Texto oscuro, café más profundo */
+            --color-fondo-secundario: #E8E2D7; /* Para secciones o barras de navegación */
+        }
+
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-beige);
+            color: var(--color-texto);
+            line-height: 1.6;
+        }
+
+        /* Encabezado (Header) */
+        header {
+            background-color: var(--color-cafe-claro);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Navegación (Nav) */
+        nav {
+            background-color: var(--color-fondo-secundario);
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: var(--color-texto);
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: var(--color-cafe-claro);
+            color: white;
+        }
+
+        /* Contenido principal (Main) */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        /* Secciones */
+        section {
+            padding: 20px;
+            margin-bottom: 30px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: var(--color-cafe-claro);
+            border-bottom: 2px solid var(--color-beige);
+            padding-bottom: 10px;
+        }
+
+        /* Pie de página (Footer) */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: var(--color-cafe-claro);
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hotel Las Olas</h1>
+        <p>Tu Paraíso Frente al Mar</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#habitaciones">Habitaciones</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <p>Disfruta de la tranquilidad y la belleza del mar en el Hotel Las Olas. Nuestra ubicación privilegiada y el servicio de primera clase te garantizan unas vacaciones inolvidables. Te esperamos para ofrecerte la mejor experiencia de descanso y relajación.</p>
+        </section>
+
+        <section id="habitaciones">
+            <h2>Nuestras Habitaciones</h2>
+            <p>Contamos con diferentes tipos de habitaciones: sencillas, dobles y suites, todas con vista al mar. Equipadas con aire acondicionado, Wi-Fi gratuito y decoración acogedora en tonos neutros y marinos.</p>
+            <ul>
+                <li>Habitación Estándar: Ideal para viajeros individuales o parejas.</li>
+                <li>Habitación Deluxe: Más espaciosa con balcón privado.</li>
+                <li>Suite Presidencial: Lujo y confort con sala de estar y jacuzzi.</li>
+            </ul>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios del Hotel</h2>
+            <p>Ofrecemos una amplia gama de servicios para hacer tu estancia más cómoda:</p>
+            <ul>
+                <li>Piscina exterior</li>
+                <li>Restaurante Gourmet</li>
+                <li>Acceso directo a la playa</li>
+                <li>Spa y masajes</li>
+                <li>Estacionamiento gratuito</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Reservaciones y Contacto</h2>
+            <p>Para hacer una reservación o consultar disponibilidad, por favor contáctanos:</p>
+            <p><strong>Teléfono:</strong> +52 (555) 123-4567</p>
+            <p><strong>Email:</strong> reservas@hotellasolas.com</p>
+            <p><strong>Dirección:</strong> Avenida Principal S/N, Playa Hermosa</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Hotel Las Olas. Todos los derechos reservados.</p>
+        <p>Diseño con colores beige y café claro.</p>
+    </footer>
+
+</body>
+</html>
+
